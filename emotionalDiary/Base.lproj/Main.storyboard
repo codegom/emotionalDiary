@@ -7,18 +7,63 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--LoginVC1-->
+        <scene sceneID="JDQ-0M-S1g">
+            <objects>
+                <viewController id="ZUH-gm-Gmb" customClass="LoginVC1" customModule="emotionalDiary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QIV-yE-E7U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ca3-jd-hSL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EQ7-eb-XbO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1778" y="577"/>
+        </scene>
+        <!--LoginVC2-->
+        <scene sceneID="Nak-ak-XEW">
+            <objects>
+                <viewController id="zz6-eu-Jj0" customClass="LoginVC2" customModule="emotionalDiary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="63R-X3-3Ne">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="CcD-T5-DEX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QTg-GR-v7E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1042" y="577"/>
+        </scene>
+        <!--LoginVC3-->
+        <scene sceneID="27s-8P-Xgq">
+            <objects>
+                <viewController id="sYl-b1-zLZ" customClass="LoginVC3" customModule="emotionalDiary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="84b-sa-49I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="5ke-28-vUJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ekl-MK-GSd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-301" y="575"/>
+        </scene>
+        <!--Emotional AddVC1-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="emotionalDiary" customModuleProvider="target" sceneMemberID="viewController"/>
+                <viewController id="BYZ-38-t0r" customClass="EmotionalAddVC1" customModule="emotionalDiary" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="139"/>
+            <point key="canvasLocation" x="938" y="575"/>
         </scene>
-        <!--View Controller-->
+        <!--Emotional AddVC2-->
         <scene sceneID="5q6-3Z-LJQ">
             <objects>
-                <viewController id="idx-hY-h4K" sceneMemberID="viewController">
+                <viewController id="idx-hY-h4K" customClass="EmotionalAddVC2" customModule="emotionalDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="se4-MS-n7U">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,7 +73,91 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0li-hD-4Au" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="939" y="139"/>
+            <point key="canvasLocation" x="2032" y="575"/>
+        </scene>
+        <!--캘린더-->
+        <scene sceneID="Myb-iO-O8l">
+            <objects>
+                <viewController id="wjD-rz-J5A" customClass="CalendarVC" customModule="emotionalDiary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XZU-9l-QnR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="8Sl-Qg-5fm"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="캘린더" id="oJg-dt-USB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xih-9q-ohD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2800" y="1296"/>
+        </scene>
+        <!--설정-->
+        <scene sceneID="amb-1w-ajV">
+            <objects>
+                <viewController id="QO3-o5-fLY" customClass="SettingVC" customModule="emotionalDiary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uA7-gk-W0f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="46V-eq-hsb"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="설정" id="ohk-Rl-CSk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8V-0P-iSX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4326" y="1296"/>
+        </scene>
+        <!--차트-->
+        <scene sceneID="NMO-uW-1bS">
+            <objects>
+                <viewController id="ljS-4d-8HQ" customClass="ChartVC" customModule="emotionalDiary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1w1-oW-Vqd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="rv9-69-Ygr"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="차트" id="cke-Tz-3RE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zhG-uw-21V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3542" y="1296"/>
+        </scene>
+        <!--전체-->
+        <scene sceneID="NLm-yj-DKY">
+            <objects>
+                <viewController id="pkP-2b-MDu" customClass="MainMenuVC" customModule="emotionalDiary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QlY-9D-sKN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="iCI-BA-na6"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="전체" id="05e-sP-hjY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w0s-Wq-JoM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2032" y="1297"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Jl7-C4-Ybk">
+            <objects>
+                <tabBarController id="ZTc-NK-dnN" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0vd-jH-Cm8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="pkP-2b-MDu" kind="relationship" relationship="viewControllers" id="3Ef-XL-neP"/>
+                        <segue destination="wjD-rz-J5A" kind="relationship" relationship="viewControllers" id="eJJ-ld-AKd"/>
+                        <segue destination="ljS-4d-8HQ" kind="relationship" relationship="viewControllers" id="OV3-wD-Tme"/>
+                        <segue destination="QO3-o5-fLY" kind="relationship" relationship="viewControllers" id="XdN-g6-OTz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YHJ-5X-wf9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="938" y="1286"/>
         </scene>
     </scenes>
 </document>

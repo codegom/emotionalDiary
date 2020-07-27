@@ -1,14 +1,14 @@
 //
-//  settingVC.swift
+//  File.swift
 //  emotionalDiary
 //
-//  Created by PARK JEONGHUN on 2020/07/28.
+//  Created by クォンスンギュン on 2020/07/28.
 //  Copyright © 2020 CodeBear. All rights reserved.
 //
 
 import UIKit
 
-class SettingVC : UIViewController {
+class LoginVC3 : UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

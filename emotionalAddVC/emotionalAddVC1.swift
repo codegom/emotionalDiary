@@ -1,5 +1,5 @@
 //
-//  settingVC.swift
+//  emotionalAddVC.swift
 //  emotionalDiary
 //
 //  Created by PARK JEONGHUN on 2020/07/28.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SettingVC : UIViewController {
+class EmotionalAddVC1 : UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
