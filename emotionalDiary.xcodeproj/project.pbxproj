@@ -16,6 +16,12 @@
 		0D41604924CDCAAA008F3A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D41604724CDCAAA008F3A49 /* LaunchScreen.storyboard */; };
 		0D41605424CDCAAA008F3A49 /* emotionalDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41605324CDCAAA008F3A49 /* emotionalDiaryTests.swift */; };
 		0D41605F24CDCAAA008F3A49 /* emotionalDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41605E24CDCAAA008F3A49 /* emotionalDiaryUITests.swift */; };
+		0DB965DC24CF27F2006DAC91 /* emotionalAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB965DB24CF27F2006DAC91 /* emotionalAddVC.swift */; };
+		0DB965DE24CF2805006DAC91 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB965DD24CF2805006DAC91 /* loginVC.swift */; };
+		0DB965E024CF2812006DAC91 /* mainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB965DF24CF2812006DAC91 /* mainMenuVC.swift */; };
+		0DB965E224CF281B006DAC91 /* settingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB965E124CF281B006DAC91 /* settingVC.swift */; };
+		0DB965E424CF2828006DAC91 /* calendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB965E324CF2828006DAC91 /* calendarVC.swift */; };
+		0DB965E624CF2831006DAC91 /* chartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB965E524CF2831006DAC91 /* chartVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		0D41605A24CDCAAA008F3A49 /* emotionalDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emotionalDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D41605E24CDCAAA008F3A49 /* emotionalDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionalDiaryUITests.swift; sourceTree = "<group>"; };
 		0D41606024CDCAAA008F3A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB965DB24CF27F2006DAC91 /* emotionalAddVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionalAddVC.swift; sourceTree = "<group>"; };
+		0DB965DD24CF2805006DAC91 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		0DB965DF24CF2812006DAC91 /* mainMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainMenuVC.swift; sourceTree = "<group>"; };
+		0DB965E124CF281B006DAC91 /* settingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingVC.swift; sourceTree = "<group>"; };
+		0DB965E324CF2828006DAC91 /* calendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarVC.swift; sourceTree = "<group>"; };
+		0DB965E524CF2831006DAC91 /* chartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,12 @@
 		0D41602D24CDCAA8008F3A49 = {
 			isa = PBXGroup;
 			children = (
+				0DB965DA24CF27AB006DAC91 /* chartVC */,
+				0DB965D924CF278A006DAC91 /* calendarVC */,
+				0DB965D824CF274B006DAC91 /* settingVC */,
+				0DB965D724CF272F006DAC91 /* mainMenuVC */,
+				0DB965D424CF25F8006DAC91 /* loginVC */,
+				0DB965D624CF26E4006DAC91 /* emotionalAddVC */,
 				0D41603824CDCAA8008F3A49 /* emotionalDiary */,
 				0D41605224CDCAAA008F3A49 /* emotionalDiaryTests */,
 				0D41605D24CDCAAA008F3A49 /* emotionalDiaryUITests */,
@@ -129,6 +147,59 @@
 				0D41606024CDCAAA008F3A49 /* Info.plist */,
 			);
 			path = emotionalDiaryUITests;
+			sourceTree = "<group>";
+		};
+		0DB965D424CF25F8006DAC91 /* loginVC */ = {
+			isa = PBXGroup;
+			children = (
+				0DB965DD24CF2805006DAC91 /* loginVC.swift */,
+			);
+			name = loginVC;
+			path = emotionalDiary/loginVC;
+			sourceTree = "<group>";
+		};
+		0DB965D624CF26E4006DAC91 /* emotionalAddVC */ = {
+			isa = PBXGroup;
+			children = (
+				0DB965DB24CF27F2006DAC91 /* emotionalAddVC.swift */,
+			);
+			path = emotionalAddVC;
+			sourceTree = SOURCE_ROOT;
+		};
+		0DB965D724CF272F006DAC91 /* mainMenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				0DB965DF24CF2812006DAC91 /* mainMenuVC.swift */,
+			);
+			name = mainMenuVC;
+			path = emotionalDiary/mainMenuVC;
+			sourceTree = "<group>";
+		};
+		0DB965D824CF274B006DAC91 /* settingVC */ = {
+			isa = PBXGroup;
+			children = (
+				0DB965E124CF281B006DAC91 /* settingVC.swift */,
+			);
+			name = settingVC;
+			path = emotionalDiary/settingVC;
+			sourceTree = "<group>";
+		};
+		0DB965D924CF278A006DAC91 /* calendarVC */ = {
+			isa = PBXGroup;
+			children = (
+				0DB965E324CF2828006DAC91 /* calendarVC.swift */,
+			);
+			name = calendarVC;
+			path = emotionalDiary/calendarVC;
+			sourceTree = "<group>";
+		};
+		0DB965DA24CF27AB006DAC91 /* chartVC */ = {
+			isa = PBXGroup;
+			children = (
+				0DB965E524CF2831006DAC91 /* chartVC.swift */,
+			);
+			name = chartVC;
+			path = emotionalDiary/chartVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +333,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB965E424CF2828006DAC91 /* calendarVC.swift in Sources */,
 				0D41604424CDCAA8008F3A49 /* emotionalDiary.xcdatamodeld in Sources */,
+				0DB965E224CF281B006DAC91 /* settingVC.swift in Sources */,
 				0D41603E24CDCAA8008F3A49 /* ViewController.swift in Sources */,
 				0D41603A24CDCAA8008F3A49 /* AppDelegate.swift in Sources */,
+				0DB965E624CF2831006DAC91 /* chartVC.swift in Sources */,
+				0DB965DC24CF27F2006DAC91 /* emotionalAddVC.swift in Sources */,
+				0DB965E024CF2812006DAC91 /* mainMenuVC.swift in Sources */,
+				0DB965DE24CF2805006DAC91 /* loginVC.swift in Sources */,
 				0D41603C24CDCAA8008F3A49 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +517,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = emotionalDiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +535,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = emotionalDiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
