@@ -11,7 +11,6 @@
 		0D41603C24CDCAA8008F3A49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41603B24CDCAA8008F3A49 /* SceneDelegate.swift */; };
 		0D41603E24CDCAA8008F3A49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41603D24CDCAA8008F3A49 /* ViewController.swift */; };
 		0D41604124CDCAA8008F3A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D41603F24CDCAA8008F3A49 /* Main.storyboard */; };
-		0D41604424CDCAA8008F3A49 /* emotionalDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D41604224CDCAA8008F3A49 /* emotionalDiary.xcdatamodeld */; };
 		0D41604624CDCAAA008F3A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D41604524CDCAAA008F3A49 /* Assets.xcassets */; };
 		0D41604924CDCAAA008F3A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D41604724CDCAAA008F3A49 /* LaunchScreen.storyboard */; };
 		0D41605424CDCAAA008F3A49 /* emotionalDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41605324CDCAAA008F3A49 /* emotionalDiaryTests.swift */; };
@@ -47,7 +46,6 @@
 		0D41603B24CDCAA8008F3A49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0D41603D24CDCAA8008F3A49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D41604024CDCAA8008F3A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D41604324CDCAA8008F3A49 /* emotionalDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = emotionalDiary.xcdatamodel; sourceTree = "<group>"; };
 		0D41604524CDCAAA008F3A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D41604824CDCAAA008F3A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D41604A24CDCAAA008F3A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				0D41604524CDCAAA008F3A49 /* Assets.xcassets */,
 				0D41604724CDCAAA008F3A49 /* LaunchScreen.storyboard */,
 				0D41604A24CDCAAA008F3A49 /* Info.plist */,
-				0D41604224CDCAA8008F3A49 /* emotionalDiary.xcdatamodeld */,
 			);
 			path = emotionalDiary;
 			sourceTree = "<group>";
@@ -334,7 +331,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DB965E424CF2828006DAC91 /* calendarVC.swift in Sources */,
-				0D41604424CDCAA8008F3A49 /* emotionalDiary.xcdatamodeld in Sources */,
 				0DB965E224CF281B006DAC91 /* settingVC.swift in Sources */,
 				0D41603E24CDCAA8008F3A49 /* ViewController.swift in Sources */,
 				0D41603A24CDCAA8008F3A49 /* AppDelegate.swift in Sources */,
@@ -667,19 +663,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0D41604224CDCAA8008F3A49 /* emotionalDiary.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0D41604324CDCAA8008F3A49 /* emotionalDiary.xcdatamodel */,
-			);
-			currentVersion = 0D41604324CDCAA8008F3A49 /* emotionalDiary.xcdatamodel */;
-			path = emotionalDiary.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0D41602E24CDCAA8008F3A49 /* Project object */;
 }
