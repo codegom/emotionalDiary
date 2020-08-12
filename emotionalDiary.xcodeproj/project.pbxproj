@@ -21,6 +21,8 @@
 		0DB965E424CF2828006DAC91 /* calendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB965E324CF2828006DAC91 /* calendarVC.swift */; };
 		0DB965E624CF2831006DAC91 /* chartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB965E524CF2831006DAC91 /* chartVC.swift */; };
 		A211748324E44BE0009766A0 /* loginVC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A211748224E44BE0009766A0 /* loginVC4.swift */; };
+		A211748524E44E7B009766A0 /* smileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A211748424E44E7B009766A0 /* smileView.swift */; };
+		A211748724E44EB5009766A0 /* flagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A211748624E44EB5009766A0 /* flagView.swift */; };
 		A214815524CF2CF8006D748F /* emotionalAddVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214815424CF2CF8006D748F /* emotionalAddVC2.swift */; };
 		A214815724CF2DD1006D748F /* loginVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214815624CF2DD1006D748F /* loginVC2.swift */; };
 		A214815924CF2DFC006D748F /* loginVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214815824CF2DFC006D748F /* loginVC3.swift */; };
@@ -64,6 +66,8 @@
 		0DB965E324CF2828006DAC91 /* calendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarVC.swift; sourceTree = "<group>"; };
 		0DB965E524CF2831006DAC91 /* chartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartVC.swift; sourceTree = "<group>"; };
 		A211748224E44BE0009766A0 /* loginVC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC4.swift; sourceTree = "<group>"; };
+		A211748424E44E7B009766A0 /* smileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smileView.swift; sourceTree = "<group>"; };
+		A211748624E44EB5009766A0 /* flagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flagView.swift; sourceTree = "<group>"; };
 		A214815424CF2CF8006D748F /* emotionalAddVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionalAddVC2.swift; sourceTree = "<group>"; };
 		A214815624CF2DD1006D748F /* loginVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC2.swift; sourceTree = "<group>"; };
 		A214815824CF2DFC006D748F /* loginVC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC3.swift; sourceTree = "<group>"; };
@@ -158,6 +162,8 @@
 				A214815624CF2DD1006D748F /* loginVC2.swift */,
 				A214815824CF2DFC006D748F /* loginVC3.swift */,
 				A211748224E44BE0009766A0 /* loginVC4.swift */,
+				A211748424E44E7B009766A0 /* smileView.swift */,
+				A211748624E44EB5009766A0 /* flagView.swift */,
 			);
 			name = loginVC;
 			path = emotionalDiary/loginVC;
@@ -345,9 +351,11 @@
 				0DB965E424CF2828006DAC91 /* calendarVC.swift in Sources */,
 				0DB965E224CF281B006DAC91 /* settingVC.swift in Sources */,
 				0D41603A24CDCAA8008F3A49 /* AppDelegate.swift in Sources */,
+				A211748724E44EB5009766A0 /* flagView.swift in Sources */,
 				0DB965E624CF2831006DAC91 /* chartVC.swift in Sources */,
 				0DB965DC24CF27F2006DAC91 /* emotionalAddVC1.swift in Sources */,
 				0DB965E024CF2812006DAC91 /* mainMenuVC.swift in Sources */,
+				A211748524E44E7B009766A0 /* smileView.swift in Sources */,
 				0DB965DE24CF2805006DAC91 /* loginVC1.swift in Sources */,
 				A214815524CF2CF8006D748F /* emotionalAddVC2.swift in Sources */,
 				0D41603C24CDCAA8008F3A49 /* SceneDelegate.swift in Sources */,
