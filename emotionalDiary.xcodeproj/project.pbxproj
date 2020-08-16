@@ -20,6 +20,10 @@
 		0DB965E224CF281B006DAC91 /* settingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB965E124CF281B006DAC91 /* settingVC.swift */; };
 		0DB965E424CF2828006DAC91 /* calendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB965E324CF2828006DAC91 /* calendarVC.swift */; };
 		0DB965E624CF2831006DAC91 /* chartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB965E524CF2831006DAC91 /* chartVC.swift */; };
+		A20D0A9424E987A300541DCD /* settingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D0A9324E987A300541DCD /* settingTableView.swift */; };
+		A20D0A9624E9890900541DCD /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D0A9524E9890800541DCD /* SettingTableViewCell.swift */; };
+		A20D0A9824E997CA00541DCD /* mainVCSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D0A9724E997CA00541DCD /* mainVCSearchBar.swift */; };
+		A20D0A9A24E9980100541DCD /* mainVCSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D0A9924E9980100541DCD /* mainVCSegmentedControl.swift */; };
 		A211748324E44BE0009766A0 /* loginVC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A211748224E44BE0009766A0 /* loginVC4.swift */; };
 		A211748524E44E7B009766A0 /* smileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A211748424E44E7B009766A0 /* smileView.swift */; };
 		A211748724E44EB5009766A0 /* flagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A211748624E44EB5009766A0 /* flagView.swift */; };
@@ -65,6 +69,10 @@
 		0DB965E124CF281B006DAC91 /* settingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingVC.swift; sourceTree = "<group>"; };
 		0DB965E324CF2828006DAC91 /* calendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarVC.swift; sourceTree = "<group>"; };
 		0DB965E524CF2831006DAC91 /* chartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartVC.swift; sourceTree = "<group>"; };
+		A20D0A9324E987A300541DCD /* settingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingTableView.swift; sourceTree = "<group>"; };
+		A20D0A9524E9890800541DCD /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		A20D0A9724E997CA00541DCD /* mainVCSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVCSearchBar.swift; sourceTree = "<group>"; };
+		A20D0A9924E9980100541DCD /* mainVCSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVCSegmentedControl.swift; sourceTree = "<group>"; };
 		A211748224E44BE0009766A0 /* loginVC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC4.swift; sourceTree = "<group>"; };
 		A211748424E44E7B009766A0 /* smileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smileView.swift; sourceTree = "<group>"; };
 		A211748624E44EB5009766A0 /* flagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flagView.swift; sourceTree = "<group>"; };
@@ -182,6 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				0DB965DF24CF2812006DAC91 /* mainMenuVC.swift */,
+				A20D0A9924E9980100541DCD /* mainVCSegmentedControl.swift */,
+				A20D0A9724E997CA00541DCD /* mainVCSearchBar.swift */,
 			);
 			name = mainMenuVC;
 			path = emotionalDiary/mainMenuVC;
@@ -191,6 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				0DB965E124CF281B006DAC91 /* settingVC.swift */,
+				A20D0A9324E987A300541DCD /* settingTableView.swift */,
+				A20D0A9524E9890800541DCD /* SettingTableViewCell.swift */,
 			);
 			name = settingVC;
 			path = emotionalDiary/settingVC;
@@ -347,13 +359,17 @@
 			files = (
 				A214815724CF2DD1006D748F /* loginVC2.swift in Sources */,
 				A211748324E44BE0009766A0 /* loginVC4.swift in Sources */,
+				A20D0A9A24E9980100541DCD /* mainVCSegmentedControl.swift in Sources */,
 				A214815924CF2DFC006D748F /* loginVC3.swift in Sources */,
+				A20D0A9824E997CA00541DCD /* mainVCSearchBar.swift in Sources */,
 				0DB965E424CF2828006DAC91 /* calendarVC.swift in Sources */,
 				0DB965E224CF281B006DAC91 /* settingVC.swift in Sources */,
 				0D41603A24CDCAA8008F3A49 /* AppDelegate.swift in Sources */,
+				A20D0A9624E9890900541DCD /* SettingTableViewCell.swift in Sources */,
 				A211748724E44EB5009766A0 /* flagView.swift in Sources */,
 				0DB965E624CF2831006DAC91 /* chartVC.swift in Sources */,
 				0DB965DC24CF27F2006DAC91 /* emotionalAddVC1.swift in Sources */,
+				A20D0A9424E987A300541DCD /* settingTableView.swift in Sources */,
 				0DB965E024CF2812006DAC91 /* mainMenuVC.swift in Sources */,
 				A211748524E44E7B009766A0 /* smileView.swift in Sources */,
 				0DB965DE24CF2805006DAC91 /* loginVC1.swift in Sources */,
